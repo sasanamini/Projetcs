@@ -3,13 +3,13 @@ package labs;
 public class Lab1 {
 
 	public static void main(String[] args) {
-		// write a function that takes a value N and return the sum of 1 to n
+		
 		System.out.println(sum(4));
 		
 		
 		System.out.println("Factorial : " + fact(5));
 		
-		// Write 3 function that return the min, avg and max of the array
+		
 		int[]numbers = {5,-2,0,234,-438,63};
 		System.out.println(" Min: " + findMin(numbers));
 		System.out.println(" Max: " + findMax(numbers));
@@ -18,8 +18,7 @@ public class Lab1 {
 	}
 	
 		public static int findAvg(int[]arr) {
-			// take sum and divide by number of elements
-			int sum = 0;
+		
 			for(int n=0; n<arr.length;n++) {
 				sum = sum + arr[n];
 			}
