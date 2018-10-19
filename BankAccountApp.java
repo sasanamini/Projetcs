@@ -18,15 +18,15 @@ public class BankAccountApp {
 
 }
 	class BankAccount implements IInterest{
-		// Properties of bank account
-		private static int iD = 1000 ;                 //Internal ID
-		private String accountNumber;                  // iD + random 2-digit number + first 2 of SSN
+		
+		private static int iD = 1000 ;                 
+		private String accountNumber;                  
 		private static final String routingNumber = "0045400657";
 		private String name;
 		private String SSN;
 		private double balance;
 		
-		// Constructor
+		d
 		public BankAccount(String SSN , double initDeposit) {
 			balance = initDeposit;
 			this.SSN = SSN;
