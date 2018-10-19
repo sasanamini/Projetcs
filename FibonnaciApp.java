@@ -18,7 +18,7 @@ public class FibonnaciApp {
 		//4! = 4 * 3 * 2 * 1
 
 	}
-	// this also called recursion
+	
 	 public static int fib(int n) {
 		 if (n == 0) {
 			 return 0;
